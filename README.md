@@ -1,0 +1,1 @@
+This repository demonstrates a common HTML/JavaScript error: attempting to access a non-existent element. The `bug.html` file contains the erroneous code.  The `bugSolution.html` file demonstrates the correct approach, ensuring the element exists before attempting to manipulate its content.  This is a crucial concept in front-end development to avoid runtime errors.
