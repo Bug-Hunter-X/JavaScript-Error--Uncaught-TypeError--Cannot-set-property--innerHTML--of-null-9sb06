@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+  <div id="nonExistentDiv"></div> 
+  <script>
+    // Check if the element exists before attempting to modify its innerHTML
+    const element = document.getElementById("nonExistentDiv");
+    if (element) {
+      element.innerHTML = "This text will now appear";
+    } else {
+      console.error("Element with ID 'nonExistentDiv' not found");
+    }
+  </script>
+</body>
+</html>
